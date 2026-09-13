@@ -1,2 +1,1 @@
-theia@theiadocker-gsanykg:/home/project/final_project$ python3 emotion_detection.py
 {"emotionPredictions":[{"emotion":{"anger":0.043230098, "disgust":0.020409841, "fear":0.033992045, "joy":0.629295, "sadness":0.14989167}, "target":"", "emotionMentions":[{"span":{"begin":0, "end":36, "text":"Мені подобається ця нова технологія."}, "emotion":{"anger":0.043230098, "disgust":0.020409841, "fear":0.033992045, "joy":0.629295, "sadness":0.14989167}}]}], "producerId":{"name":"Ensemble Aggregated Emotion Workflow", "version":"0.0.1"}}
