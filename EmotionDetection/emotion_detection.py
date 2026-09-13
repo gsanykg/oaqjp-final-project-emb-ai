@@ -10,8 +10,8 @@ def emotion_detector(text_to_analyze):
     emotion = formatted_response['emotionPredictions'][0]['emotionMentions'][0]['emotion']
     max_key = max(emotion, key=emotion.get)
     emotion['dominant_emotion'] = max_key
-    formatted_json = json.dumps(emotion, indent=4, ensure_ascii=False)
-    return formatted_json
+    #formatted_json = json.dumps(emotion, indent=4, ensure_ascii=False)
+    return emotion
 
 #if __name__ == "__main__":
  #   emotion_detector("Я радий")    
