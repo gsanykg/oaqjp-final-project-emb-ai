@@ -13,4 +13,5 @@ def emotion_detector(text_to_analyze):
     formatted_json = json.dumps(emotion, indent=4, ensure_ascii=False)
     return formatted_json
 
-#print(emotion_detector('Я так щасливий, що роблю це.'))
+#if __name__ == "__main__":
+ #   emotion_detector("Я радий")    
